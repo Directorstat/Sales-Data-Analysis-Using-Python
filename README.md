@@ -23,38 +23,18 @@ The goal is to transform raw sales data into meaningful insights through statist
 ## Technologies Used
 
 Python 3 (Google Colab))
-Libraries used
-• pandas, data manipulation and analysis
-
-• numpy, numerical operations
-
-• matplotlib, data visualisation
-
-• seaborn, statistical visualisation
+Libraries used: pandas, data manipulation and analysis: numpy, numerical operations; matplotlib, data visualisation; seaborn, statistical visualisation
 
 ## Dataset Description
 
-The dataset contains transactional sales records with the following fields:
-
-• OrderID, unique identifier for each order
-
-• CustomerID, unique identifier for each customer
-
-• Product, name or category of product sold
-
-• Quantity, number of units purchased
-
-• Price, price per product
-
-• Total, total transaction amount
-
-• Date, date of the transaction
+The dataset contains transactional sales records with the following fields: OrderID, unique identifier for each order; CustomerID, unique identifier for each customer; Product, name or category of product sold; Quantity, number of units purchased; Price, price per product; Total, total transaction amount; Date, date of the transaction
 
 ## Data Cleaning Process
 
 The dataset contained missing values, which required preprocessing.
 
 Steps performed
+
 • Checked missing values using dataframe null detection
 
 • Identified rows where Product or Total values were missing
